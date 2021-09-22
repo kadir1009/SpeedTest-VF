@@ -19,15 +19,15 @@ func Start(token string) {
 	}
 
 	h := Handler{Bot: b}
-	b.Handle("/start", h.Start)
-	b.Handle("/servers", h.Servers)
+	b.Handle("/basla", h.Start)
+	b.Handle("/sunucular", h.Servers)
 	b.Handle("/test", h.Test)
-	b.Handle("/help", h.Help)
-	b.Handle("/last", h.Last)
-	b.Handle("/best", h.Best)
-	b.Handle("/worst", h.Worst)
+	b.Handle("/yardim", h.Help)
+	b.Handle("/son", h.Last)
+	b.Handle("/eniyi", h.Best)
+	b.Handle("/enkotu", h.Worst)
 	b.Handle(telebot.OnText, h.Text)
 
-	logrus.Info("Telegram bot starting")
+	logrus.Info("Telegram bot başlıyor")
 	b.Start()
 }
