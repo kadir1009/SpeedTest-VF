@@ -9,8 +9,8 @@ import (
 )
 
 func Start(token string) {
-	b, err := telebot.NewBot(telebot.Settings{
-		Token:  token,
+	b, err := telebot.SpeedTest(telebot.Settings{
+		Token:  2037914959:AAGKtCIGkTC6Whwj0wEZROPui86Tgk3_vsU,
 		Poller: &telebot.LongPoller{Timeout: 10 * time.Second},
 	})
 	if err != nil {
