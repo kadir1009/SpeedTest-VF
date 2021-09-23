@@ -1,4 +1,4 @@
-module github.com/speeedy
+module github.com/SpeedTest-VF
 
 go 1.13
 
