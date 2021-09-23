@@ -1,5 +1,4 @@
-module github.com/SpeedTest-VF
-
+module github.com/speedy
 go 1.13
 
 require (
