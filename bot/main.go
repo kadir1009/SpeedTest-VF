@@ -19,7 +19,7 @@ func Start(token string) {
 	}
 
 	h := Handler{Bot: b}
-	b.Handle("/basla", h.Start)
+	b.Handle("/start", h.Start)
 	b.Handle("/sunucular", h.Servers)
 	b.Handle("/test", h.Test)
 	b.Handle("/yardim", h.Help)
