@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 
-	"github.com/SpeedTest-VF/bot"
-	"github.com/SpeedTest-VF/config"
-	"github.com/SpeedTest-VF/db"
-	"github.com/SpeedTest-VF/job"
+	"github.com/speedy/bot"
+	"github.com/speedy/config"
+	"github.com/speedy/db"
+	"github.com/speedy/job"
 )
 
 func main() {
