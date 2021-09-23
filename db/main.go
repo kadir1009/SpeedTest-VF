@@ -6,7 +6,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/speeedy/config"
+	"github.com/SpeedTest-VF/config"
 )
 
 var DB *gorm.DB
